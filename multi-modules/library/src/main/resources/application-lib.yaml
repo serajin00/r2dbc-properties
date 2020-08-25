@@ -1,0 +1,9 @@
+---
+spring.profiles: dev
+
+spring:
+  r2dbc:
+    url: r2dbc:h2:mem:///testdb
+    pool:
+      initial-size: 1
+      max-size: 7
